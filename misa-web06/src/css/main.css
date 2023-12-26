@@ -1,0 +1,173 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Bold.ttf); 
+    font-weight: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 13px;
+    font-family: Roboto;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.icon-container-24px {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-container-40px {
+    width: 40px;
+    height: 40px;
+}
+
+.icon-container-24px,
+.icon-container-40px {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;;
+}
+
+.icon-container-24px:hover,
+.icon-container-40px:hover {
+    background-color: #b1b0b0;
+}
+
+.icon-container-24px:active,
+.icon-container-40px:active {
+    background-color: #cbcbcb;
+}
+.icon-container-24px .icon,
+.icon-container-40px .icon {
+    background-image: url(../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+:root {
+    --text-fill-primary: #FFFFFF;
+    --text-fill-secondary: #000000;
+
+
+    --color-primary: #50B83C;
+    --color-primary-hover: #73C663;
+    --color-primary-active: #409330;
+    --color-primary-focus: #409330;
+    --color-primary-disable: #B9E2B1;
+
+    --color-secondary: #FFFFFF;
+    --color-secondary-hover: #E0E0E0;
+    --color-secondary-active: #757575;
+    --color-secondary-focus: #757575;
+    --color-secondary-disable: #F5F5F5;
+
+    --outline: rgb(61, 178, 255);
+}
+
+input[type="radio"]{
+    accent-color: #3ea52a;
+}
+
+input[type="checkbox"] {
+    accent-color: #3ea52a;    
+}
+
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+}
+
+.w10{
+    width: 10%;
+}
+
+.w20{
+    width: 20%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w40{
+    width: 40%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w60{
+    width: 60%;
+}
+
+.w70{
+    width: 70%;
+}
+
+.w75{
+    width: 75%;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w90{
+    width: 90%;
+}
+
+.w100{
+    width: 100%;
+}
+
+.min-w50{
+    min-width: 50px;
+}

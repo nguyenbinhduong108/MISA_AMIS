@@ -1,0 +1,23 @@
+.radio-container .radio-ground{
+    display: flex;
+    height: 36px;
+}
+
+.radio-container .title{
+    font-family: Roboto;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.radio-container .radio-ground > div{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radio-container .radio-ground > div > div input{
+    width: 20px;
+    height: 20px;
+    margin-right: 2px;
+} 

@@ -1,0 +1,58 @@
+.btn{
+    min-width: 80px;
+    height: 36px;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-primary{
+    color: var(--text-fill-primary);
+    background-color: var(--color-primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--color-primary-hover);
+}
+
+.btn-primary:active{
+    background-color: var(--color-primary-active);
+}
+
+.btn-primary:focus{
+    background-color: var(--color-primary-focus);
+    outline: var(--outline) solid 2px;
+}
+
+.btn-primary:disabled{
+    background-color: var(--color-primary-disable)
+}
+
+.btn-secondary{
+    border: 1px solid #E0E0E0;
+    color: var(--text-fill-secondary);
+    background-color: #ffffff;
+    margin-right: 8px;
+}
+
+.btn-secondary:hover{
+    background-color: var(--color-secondary-hover);
+}
+
+.btn-secondary:active{
+    background-color: var(--color-secondary-active);
+}
+
+.btn-secondary:focus{
+    background-color: var(--color-secondary-focus);
+    outline: var(--outline) solid 2px;
+}
+
+.btn-secondary:disabled{
+    background-color: var(--color-secondary-disable);
+}

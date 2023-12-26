@@ -1,0 +1,31 @@
+.search-icon{
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -620px -31px;
+    width: 20px;
+    height: 20px;
+}
+
+.down-arrow{
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -1756px -317px;
+    width: 8px;
+	height: 5px;
+}
+
+.reaload {
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -424px -201px;
+    width: 22px;
+    height: 23px;
+}
+
+.execl{
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
+    background-repeat: no-repeat;
+    background-position: -705px -202px;
+    width: 23px;
+	height: 20px;
+}

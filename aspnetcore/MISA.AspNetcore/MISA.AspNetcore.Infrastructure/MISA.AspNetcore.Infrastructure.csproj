@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MISA.AspNetcore.Application\MISA.AspNetcore.Application.csproj" />
+    <ProjectReference Include="..\MISA.AspNetcore.Domain\MISA.AspNetcore.Domain.csproj" />
+  </ItemGroup>
+
+    <ItemGroup>
+	    <PackageReference Include="Dapper" Version="2.0.143" />
+	    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+    </ItemGroup>
+
+</Project>

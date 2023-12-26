@@ -1,0 +1,82 @@
+.table-container{
+    width: 100%;
+    background-color: #ffffff;
+    padding: 0 0 0 12px;
+    height: calc(100% - 172px);
+    flex: 1;
+    position: absolute;
+    overflow-y: scroll;
+    top: 110px;
+    bottom: 58px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+} 
+
+table td,
+table th{
+    height: 48px;
+    padding-left: 4px;
+    padding-right: 4px;
+    vertical-align: middle;
+}
+
+table thead tr{
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    background-color: #F5F5F5;
+    font-family: Roboto;
+    font-weight: 500;  
+}
+
+table td{
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+}
+
+table th{
+    background-color: #F5F5F5;
+    font-family: Roboto;
+    font-weight: 500;  
+}
+
+table tbody tr.selected{
+    background-color: #FFD699 !important;
+}
+
+table tbody tr:hover{
+    background-color: #E9EBEE;
+    cursor: pointer;
+    position: relative;
+}
+
+table tbody tr:hover > div{
+    display: flex;
+}
+
+table tbody tr > div{
+    display: none;
+    position: absolute;
+    right: 0;
+}
+
+.table-container .icon-container-40px{
+    border-radius: 90px;
+    margin-right: 12px;
+    box-shadow: rgba(0,0,0,0.078) 0px 3px 6px;
+}
+
+.table-container .icon-container-40px:nth-child(1) .icon{
+    background-position: -1658px -90px;
+    width: 21px;
+	height: 20px;
+}
+
+.table-container .icon-container-40px:nth-child(2) .icon{
+    background-position: -1039px -361px;
+    rotate: 90deg;
+    width: 3px;
+	height: 15px;
+}

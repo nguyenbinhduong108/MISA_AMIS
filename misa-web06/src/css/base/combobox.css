@@ -1,0 +1,128 @@
+.combobox-dialog .title{
+    font-family: Roboto;
+    font-weight: 700;
+    margin-bottom: 8px;
+    margin-top: 24px;
+}
+
+.combobox-dialog .title-required::after{
+    content: ' *';
+    color: #ff0000;
+}
+
+.input{
+    display: flex;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+}
+
+.combobox-dialog input{
+    height: 36px;
+    outline: none;
+    border: none;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: #FFFFFF;
+    padding-left: 12px;
+    width: calc(100% - 36px);
+    min-width: 30px;
+}
+
+.combobox-dialog input:hover{
+    background-color: #f1f1f1;
+}  
+
+.combobox-dialog button:active{
+    background-color: #f1f1f1;
+    outline: none;
+}
+
+.combobox-dialog button{
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: #ffffff;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
+.combobox-dialog .green-boder{
+    border: 1px solid #50B83C;
+}
+
+.combobox-dialog{
+    position: relative;
+}
+
+
+.combobox-list {
+    background-color: #FFFFFF;
+    width: 100%;
+    max-height: 308px;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(23, 27, 42, 0.24);
+    padding: 8px 4px;
+    overflow: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: 9999;
+}
+
+.combobox-list-top{
+    bottom: 100%;
+}
+
+.combobox-item{
+    padding: 8px;
+}
+
+.combobox-item:hover{
+    background-color: #E0E0E0;
+}
+
+.combobox-list::-webkit-scrollbar{
+    width: 0;
+}
+
+.combobox-item.selected{
+    background-color: #019160;
+    color: #FFFFFF;
+    font-weight: 700;
+    position: relative;
+    border-radius: 4px;
+}
+
+.combobox-item.selected .icon{
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1294px -562px;
+	width: 18px;
+	height: 15px;
+    position: absolute;
+    top: 30%;
+    right: 12px;
+}
+
+
+
+
+
+/* input lỗi */
+.hint{
+    display: none;
+}
+
+.combobox-dialog .textfielderror{
+    border: 1px solid #E61D1D !important;
+}
+
+.combobox-dialog + .hint{
+    color: #FF2C2C;
+    position: absolute;
+    bottom: -20px;
+    display: block; 
+}
